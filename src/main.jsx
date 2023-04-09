@@ -5,6 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main from "./component/layout/Main";
 import Home from "./component/home/Home";
+import Statistics from "./component/Statistics/Statistics";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -13,6 +14,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>,
+      },
+      {
+        path: "/appliedJobs",
+        element: <div></div>,
+      },
+      {
+        path: "/blog",
+        element: <div></div>,
       },
     ],
   },

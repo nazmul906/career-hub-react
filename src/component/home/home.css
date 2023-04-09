@@ -1,0 +1,8 @@
+.home {
+  display: flex;
+}
+
+.Banner img {
+  width: 516px;
+  height: 544px;
+}
