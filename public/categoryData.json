@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "logo_url": "https://example.com/images/technology_logo.png",
+      "name": "Technology",
+      "jobs_available": 1567
+    },
+    {
+      "logo_url": "https://example.com/images/marketing_logo.png",
+      "name": "Marketing",
+      "jobs_available": 743
+    },
+    {
+      "logo_url": "https://example.com/images/design_logo.png",
+      "name": "Design",
+      "jobs_available": 319
+    },
+    {
+      "logo_url": "https://example.com/images/customer_service_logo.png",
+      "name": "Customer Service",
+      "jobs_available": 982
+    }
+  ]
+}
