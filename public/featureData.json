@@ -1,0 +1,164 @@
+[
+  {
+    "id": "1",
+    "company_logo": "https://example.com/company1_logo.png",
+    "job_title": "Frontend Developer",
+    "company_name": "ABC Corp",
+    "remote_or_onsite": "Remote",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We're seeking a talented Frontend Developer to join our team and help us build beautiful, responsive web applications.",
+    "job_responsibility": "Design and implement new user-facing features, Build reusable code and libraries for future use, Ensure the technical feasibility of UI/UX designs, Optimize applications for maximum speed and scalability, Collaborate with other team members and stakeholders",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in frontend development",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "jobs@abccorp.com"
+    }
+  },
+  {
+    "id": "2",
+    "company_logo": "https://example.com/company2_logo.png",
+    "job_title": "Data Scientist",
+    "company_name": "XYZ Inc",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "job_description": "We're looking for a Data Scientist to join our team and help us extract insights from our vast data sets.",
+    "job_responsibility": "Design and develop statistical models to analyze large data sets, Build predictive models to identify trends and patterns, Communicate findings to stakeholders and leadership, Collaborate with other team members to develop data-driven solutions",
+    "educational_requirements": "Master's degree in Statistics, Mathematics, or related field",
+    "experiences": "5+ years of experience in data science",
+    "contact_information": {
+      "phone": "555-5678",
+      "email": "jobs@xyzinc.com"
+    }
+  },
+  {
+    "id": "3",
+    "company_logo": "https://example.com/company3_logo.png",
+    "job_title": "UX Designer",
+    "company_name": "123 Co",
+    "remote_or_onsite": "Onsite",
+    "location": "Chicago, IL",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "job_description": "We're seeking a talented UX Designer to join our team and help us create intuitive and engaging user experiences.",
+    "job_responsibility": "Design and conduct user research studies, Create wireframes and prototypes to test and validate design concepts, Collaborate with developers to ensure design implementation meets user needs, Continuously iterate on designs based on user feedback",
+    "educational_requirements": "Bachelor's degree in Design or related field",
+    "experiences": "3+ years of experience in UX design",
+    "contact_information": {
+      "phone": "555-9012",
+      "email": "jobs@123co.com"
+    }
+  },
+  {
+    "id": "4",
+    "company_logo": "https://example.com/company4_logo.png",
+    "job_title": "Sales Representative",
+    "company_name": "DEF Inc",
+    "remote_or_onsite": "Remote",
+    "location": "Chicago, IL",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "job_description": "We're seeking a talented UX Designer to join our team and help us create intuitive and engaging user experiences.",
+    "job_responsibility": "Design and conduct user research studies, Create wireframes and prototypes to test and validate design concepts, Collaborate with developers to ensure design implementation meets user needs, Continuously iterate on designs based on user feedback",
+    "educational_requirements": "Bachelor's degree in Design or related field",
+    "experiences": "3+ years of experience in UX design",
+    "contact_information": {
+      "phone": "555-9012",
+      "email": "jobs@123co.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "https://example.com/logo3.png",
+    "job_title": "Graphic Designer",
+    "company_name": "123 Design Agency",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$40 - $50 per hour",
+    "job_description": "We're looking for a talented graphic designer to work on a variety of projects for our clients.",
+    "job_responsibility": "Design and create graphics for a range of projects, including websites, social media, and print materials.",
+    "educational_requirements": "Bachelor's degree in Graphic Design or a related field.",
+    "experiences": "2+ years of professional experience in graphic design.",
+    "contact_information": {
+      "phone": "555-555-9012",
+      "email": "info@123designagency.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "https://example.com/logo2.png",
+    "job_title": "Marketing Manager",
+    "company_name": "XYZ Corporation",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "job_description": "We're seeking a creative and results-driven marketing manager to join our team and lead our marketing efforts.",
+    "job_responsibility": "Develop and execute marketing campaigns across multiple channels to drive brand awareness and generate leads.",
+    "educational_requirements": "Bachelor's degree in Marketing, Communications, or a related field.",
+    "experiences": "5+ years of experience in marketing, with at least 2 years in a management role.",
+    "contact_information": {
+      "phone": "555-555-5678",
+      "email": "careers@xyzcorp.com"
+    }
+  },
+  {
+    "id": 7,
+    "company_logo": "https://example.com/logo1.png",
+    "job_title": "Software Engineer",
+    "company_name": "ABC Company",
+    "remote_or_onsite": "Remote",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We're looking for a talented software engineer to join our team and help build amazing products.",
+    "job_responsibility": "Develop and maintain high-quality software using modern programming languages and frameworks.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+    "experiences": "2+ years of professional experience in software development.",
+    "contact_information": {
+      "phone": "555-555-1234",
+      "email": "jobs@abccompany.com"
+    }
+  },
+  {
+    "id": 8,
+    "company_logo": "https://example.com/logo2.png",
+    "job_title": "Data Analyst",
+    "company_name": "Another Example Inc.",
+    "remote_or_onsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a data analyst to join our team...",
+    "job_responsibility": "Collect and analyze data from various sources...",
+    "educational_requirements": "Bachelor's degree in Statistics, Mathematics, or related field",
+    "experiences": "2+ years of experience in data analysis",
+    "contact_information": {
+      "phone": "+1 (555) 234-5678",
+      "email": "jobs@anotherexample.com"
+    }
+  },
+  {
+    "id": 9,
+    "company_logo": "https://example.com/logo1.png",
+    "job_title": "Backend developer",
+    "company_name": "Example Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We are seeking an experienced software engineer to join our team...",
+    "job_responsibility": "Develop and maintain software applications...",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software development",
+    "contact_information": {
+      "phone": "+1 (555) 123-4567",
+      "email": "jobs@example.com"
+    }
+  }
+]

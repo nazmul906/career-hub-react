@@ -2,12 +2,13 @@ import React from "react";
 import { useLoaderData } from "react-router-dom";
 import "./home.css";
 import DisplayCategory from "../display/DisplayCategory";
+import Feature from "../feature/Feature";
 const Home = () => {
   const data = useLoaderData();
   console.log(data);
   return (
     <div>
-      <div className="homePagePara2">
+      <div className="homePageBannnerSection">
         <h4>a Banner, Category List section, and Featured job</h4>
 
         <div className="homeLeft">
@@ -21,9 +22,15 @@ const Home = () => {
       </div>
 
       <div className="categorySection">
+        <h1>Job Category List</h1>
         {data.map((item) => (
           <DisplayCategory key={item.name} category={item}></DisplayCategory>
         ))}
+      </div>
+
+      <div className="featureSection">
+        <h1>Featured Jobs</h1>
+        <Feature></Feature>
       </div>
     </div>
   );

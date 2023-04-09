@@ -1,10 +1,14 @@
 import React from "react";
-
-const DisplayCategory = (props) => {
-  console.log(props.category);
+import "./displayCategory.css";
+const DisplayCategory = ({ category }) => {
+  console.log(category);
+  const { name } = category;
   return (
     <div>
-      <h1>Job Category List</h1>
+      <div className="displaycategory">
+        <img></img>
+        <h5>{name}</h5>
+      </div>
     </div>
   );
 };

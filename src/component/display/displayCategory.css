@@ -1,0 +1,4 @@
+.displaycategory {
+  display: grid;
+  grid-template-columns: repeat(4fr, 1fr);
+}
