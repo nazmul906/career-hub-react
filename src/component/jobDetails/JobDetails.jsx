@@ -2,12 +2,11 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 import { useState, useEffect } from "react";
-const JobDetails = () => {
-  const [feature, setFeature] = useState([]);
-  const [selectedId, setSelectedId] = useState(1);
-
-  const [data, setData] = useState(null);
-  const { id } = useParams();
+const JobDetails = (details) => {
+  const { id } = details;
+  console.log(details);
+  // const [feature, setFeature] = useState([]);
+  // const [selectedId, setSelectedId] = useState(1);
 
   // useEffect(() => {
   //   fetch(`/featureData.json/${id}`)
@@ -19,10 +18,6 @@ const JobDetails = () => {
   //     .then((res) => res.json())
   //     .then((data) => setFeature(data));
   // }, []);
-  const savecart = [];
-  const selectFeature = feature.find((item) => item.id === selectedId);
-  //   console.log(selectFeature);
-  savecart.push(selectFeature);
 
   //   const { job_title } = savecart;
   return (
@@ -31,12 +26,7 @@ const JobDetails = () => {
       {/* 
       <h5>{selectFeature.job_title}</h5> */}
 
-      {data && (
-        <div>
-          <h1>{data.job_title}</h1>
-          <p>{data.job_description}</p>
-        </div>
-      )}
+      <h3>{id}</h3>
     </div>
   );
 };

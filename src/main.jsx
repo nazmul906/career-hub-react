@@ -30,10 +30,10 @@ const router = createBrowserRouter([
         path: "/blog",
         element: <div></div>,
       },
-      {
-        path: "/viewdetails",
-        element: <JobDetails></JobDetails>,
-      },
+      // {
+      //   path: "/viewdetails",
+      //   element: <JobDetails></JobDetails>,
+      // },
       //      loader: ({ params }) => console.log(params.details)
       {
         path: "/viewdetails/:detailsID",
