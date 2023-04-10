@@ -3,20 +3,16 @@ import React from "react";
 // console.log(data);
 import { useEffect, useState } from "react";
 import DisplayFeature from "../display/DisplayFeature";
-
-const Feature = () => {
-  const [feature, setFeature] = useState([]);
-  useEffect(() => {
-    fetch("featureData.json")
-      .then((res) => res.json())
-      .then((data) => setFeature(data));
-  }, []);
+import { Link } from "react-router-dom";
+const Feature = ({ feature }) => {
+  // console.log(feature);
+  const { id, company_name, name, remote_or_onsite, location } = feature;
   return (
-    <div>
-      {/* {feature.length} */}
-      {feature.map((item) => (
-        <DisplayFeature feature={item}></DisplayFeature>
-      ))}
+    <div className="feature">
+      <h4>{company_name}</h4>
+      <Link to={`/viewdetails/${id}`}>
+        <button>View Details</button>
+      </Link>
     </div>
   );
 };

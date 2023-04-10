@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main from "./component/layout/Main";
 import Home from "./component/home/Home";
 import Statistics from "./component/Statistics/Statistics";
+import JobDetails from "./component/jobDetails/JobDetails";
+import Details from "./component/details/Details";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +29,16 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <div></div>,
+      },
+      {
+        path: "/viewdetails",
+        element: <JobDetails></JobDetails>,
+      },
+      //      loader: ({ params }) => console.log(params.details)
+      {
+        path: "/viewdetails/:detailsID",
+        element: <Details></Details>,
+        loader: ({ params }) => fetch("/featureData.json"),
       },
     ],
   },

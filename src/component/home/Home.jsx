@@ -3,12 +3,27 @@ import { useLoaderData } from "react-router-dom";
 import "./home.css";
 import DisplayCategory from "../display/DisplayCategory";
 import Feature from "../feature/Feature";
+import { useEffect, useState } from "react";
 const Home = () => {
   const data = useLoaderData();
-  console.log(data);
+  // console.log(data);
+  const [feature, setFeature] = useState([]);
+  useEffect(() => {
+    fetch("featureData.json")
+      .then((res) => res.json())
+      .then((data) => setFeature(data));
+  }, []);
+
+  //direct API pawa jabe na..id pele oi id diye map krte hbe
+  // useEffect(() => {
+  //   fetch("http://localhost:5173/featureData.json/id/1")
+  //     .then((res) => res.json())
+  //     .then((data) => console.log("detailsBYID", data));
+  // }, []);
+
   return (
-    <div>
-      <div className="homePageBannnerSection">
+    <div className="home">
+      <div className="BannnerSection">
         <h4>a Banner, Category List section, and Featured job</h4>
 
         <div className="homeLeft">
@@ -30,7 +45,9 @@ const Home = () => {
 
       <div className="featureSection">
         <h1>Featured Jobs</h1>
-        <Feature></Feature>
+        {feature.map((item) => (
+          <Feature key={item.id} feature={item}></Feature>
+        ))}
       </div>
     </div>
   );

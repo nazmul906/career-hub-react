@@ -1,7 +1,7 @@
 import React from "react";
 import "./displayCategory.css";
 const DisplayCategory = ({ category }) => {
-  console.log(category);
+  // console.log(category);
   const { name } = category;
   return (
     <div>
