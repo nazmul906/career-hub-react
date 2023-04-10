@@ -1,6 +1,7 @@
 import React from "react";
 // const data = useLoaderData();
 // console.log(data);
+import "./feature.css";
 import { useEffect, useState } from "react";
 import DisplayFeature from "../display/DisplayFeature";
 import { Link } from "react-router-dom";
