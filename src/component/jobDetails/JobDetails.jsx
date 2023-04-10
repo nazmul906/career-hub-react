@@ -8,6 +8,8 @@ const JobDetails = ({ details }) => {
   const handleClick = (id) => {
     console.log("clicked", id);
     addToDb(id);
+
+    // const prevlocalstorage
   };
   return (
     <div>
