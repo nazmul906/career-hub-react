@@ -72,7 +72,7 @@
     }
   },
   {
-    "id": 5,
+    "id": "5",
     "company_logo": "https://example.com/logo3.png",
     "job_title": "Graphic Designer",
     "company_name": "123 Design Agency",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "id": 6,
+    "id": "6",
     "company_logo": "https://example.com/logo2.png",
     "job_title": "Marketing Manager",
     "company_name": "XYZ Corporation",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "id": 7,
+    "id": "7",
     "company_logo": "https://example.com/logo1.png",
     "job_title": "Software Engineer",
     "company_name": "ABC Company",
@@ -126,7 +126,7 @@
     }
   },
   {
-    "id": 8,
+    "id": "8",
     "company_logo": "https://example.com/logo2.png",
     "job_title": "Data Analyst",
     "company_name": "Another Example Inc.",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "id": 9,
+    "id": "9",
     "company_logo": "https://example.com/logo1.png",
     "job_title": "Backend developer",
     "company_name": "Example Inc.",

@@ -4,7 +4,7 @@ import { addToDb } from "../utilities/localStore";
 import { useState, useEffect } from "react";
 const JobDetails = ({ details }) => {
   const { id, job_title, company_name, remote_or_onsite } = details;
-  console.log(details);
+  // console.log(details);
   const handleClick = (id) => {
     console.log("clicked", id);
     addToDb(id);

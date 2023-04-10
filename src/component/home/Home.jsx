@@ -6,6 +6,7 @@ import Feature from "../feature/Feature";
 import { useEffect, useState } from "react";
 const Home = () => {
   const [showall, setShowall] = useState(false);
+
   const data = useLoaderData();
   // console.log(data);
   const [feature, setFeature] = useState([]);
@@ -46,22 +47,25 @@ const Home = () => {
 
       <div className="featureSection">
         <h1>Featured Jobs</h1>
-        {feature.slice(0, showall ? feature.length : 4).map((item) => (
+        {/* {feature.slice(0, showall ? feature.length : 4).map((item) => (
           <Feature key={item.id} feature={item}></Feature>
-        ))}
-        {/* {feature.length > 4 && (
-          <button
-            onClick={() => {
-              feature.map((item) => (
-                <Feature key={item.id} feature={item}></Feature>
-              ));
-            }}
-          >
-            See All Jobs
-          </button>
-        )} */}
+        ))} */}
+        {/* {feature.slice(0, 4).map((item) => (
+          <Feature key={item.id} feature={item}></Feature>
+        ))} */}
+
+        {showall
+          ? feature.map((feature) => (
+              <Feature key={feature.id} feature={feature} />
+            ))
+          : feature
+              .slice(0, 4)
+              .map((feature) => <Feature key={feature.id} feature={feature} />)}
+        <button onClick={() => setShowall(!showall)}>
+          {showall ? "Show Less" : "See All Jobs"}
+        </button>
       </div>
-      <button onClick={() => setShowall(true)}>Show all</button>
+      {/* <button onClick={() => setShowall(true)}>Show all</button> */}
     </div>
   );
 };

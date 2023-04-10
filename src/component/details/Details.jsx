@@ -9,12 +9,12 @@ const Details = () => {
   //   const productId = match.params.id; // get the ID from the URL parameter
   const [feature, setFeature] = useState([]);
   const details = useLoaderData();
-  //   const { id } = useParams();
-  console.log(details);
+
+  // console.log(details);
 
   const { detailsID } = useParams(); //route e je name disi exactly same detailsID name destructure krte hbe na hoile undefined
 
-  console.log("pid", detailsID);
+  // console.log("pid", detailsID);
 
   useEffect(() => {
     const foundID = details.find((item) => item.id == detailsID);
