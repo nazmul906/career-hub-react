@@ -2,10 +2,29 @@
   display: flex;
 }
 
+.BannerLeft {
+  width: 570px;
+  height: 511px;
+  margin-top: 148px;
+  margin-right: 70px;
+  /* padding: 20px; */
+}
+.BannerLeft p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
 .Banner img {
-  width: 516px;
-  height: 544px;
+  width: 816px;
+  height: 644px;
+  margin-bottom: 100px;
 }
 /* .featureSection{
   border: 5px solid aqua;
 } */
+.categorySection {
+  margin-bottom: 130px;
+}

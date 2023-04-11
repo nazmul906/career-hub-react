@@ -1,22 +1,22 @@
 [
   {
-    "logo_url": "https://example.com/images/technology_logo.png",
+    "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRewGL3GUFLqioFMMXWSNRIUT8J1opCLYyvf_MsbPIlaxbHNhEE78KcuMqJ4bLRwPr5TbY&usqp=CAU",
     "name": "Technology",
-    "jobs_available": 1567
+    "jobs_available": "1567 jobs available"
   },
   {
-    "logo_url": "https://example.com/images/marketing_logo.png",
+    "logo_url": "https://cdn.pixabay.com/photo/2017/03/19/20/19/ball-2157465__340.png",
     "name": "Marketing",
-    "jobs_available": 743
+    "jobs_available": "743 jobs available"
   },
   {
-    "logo_url": "https://example.com/images/design_logo.png",
+    "logo_url": "https://cdn.pixabay.com/photo/2017/03/16/21/18/logo-2150297__340.png",
     "name": "Design",
-    "jobs_available": 319
+    "jobs_available": "319 jobs available"
   },
   {
-    "logo_url": "https://example.com/images/customer_service_logo.png",
+    "logo_url": "https://i.pinimg.com/236x/71/b3/e4/71b3e4159892bb319292ab3b76900930.jpg",
     "name": "Customer Service",
-    "jobs_available": 982
+    "jobs_available": "982 jobs available"
   }
 ]

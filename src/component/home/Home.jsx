@@ -26,30 +26,54 @@ const Home = () => {
   return (
     <div className="home">
       <div className="BannnerSection">
-        <h4>a Banner, Category List section, and Featured job</h4>
-
-        <div className="homeLeft">
-          <h1 className="Category"></h1>
-          <p className="CategoryList"></p>
+        <div className="BannerLeft">
+          {" "}
+          <h1 className="font-bold">
+            <span>A STEP CLOSER TO YOUR </span> <br />
+            <span>Dream JOb</span>
+          </h1>
+          <p className="bannerP">
+            Explore thousands of job opportunities with all the information you
+            need. Its your future. Come find it. Manage all your job application
+            from start to finish.
+          </p>
           <button>Get Started</button>
         </div>
+        {/* <div className="homeLeft">
+          <h1 className="Category"></h1>
+          <p className="CategoryList"></p>
+        </div> */}
         <div className="Banner">
           <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"></img>
         </div>
       </div>
 
       <div className="categorySection">
-        <h1>Job Category List</h1>
-        {data.map((item) => (
-          <DisplayCategory key={item.name} category={item}></DisplayCategory>
-        ))}
+        <div className="card-compact w-66 bg-base-100 shadow-xl">
+          <h1 className="font-normal mb-4"> Job Category List</h1>
+          <p>
+            Explore thousands of job opportunities with all the information you
+            need. Its your future
+          </p>
+          <div className="md:grid grid-cols-4 gap-3">
+            {data.map((item) => (
+              <DisplayCategory
+                key={item.name}
+                category={item}
+              ></DisplayCategory>
+            ))}
+          </div>
+        </div>
       </div>
 
       <div className="featureSection">
-        <h1>Featured Jobs</h1>
-        {feature?.slice(0, showall ? feature.length : 4).map((item) => (
-          <Feature key={item.id} feature={item}></Feature>
-        ))}
+        <h1 className=" mb-4">Featured Jobs</h1>
+        <div className="card w-auto bg-base-100 shadow-xl md:grid grid-cols-2 gap-4">
+          {feature?.slice(0, showall ? feature.length : 4).map((item) => (
+            <Feature key={item.id} feature={item}></Feature>
+          ))}
+        </div>
+
         {/* {feature.slice(0, 4).map((item) => (
           <Feature key={item.id} feature={item}></Feature>
         ))} */}
