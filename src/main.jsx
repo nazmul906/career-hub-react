@@ -10,6 +10,7 @@ import JobDetails from "./component/jobDetails/JobDetails";
 import Details from "./component/details/Details";
 import AppliedJobs from "./component/appliedJobs/AppliedJobs";
 import AppliedJobloader from "./component/loader/AppliedJobloader";
+import ErrorPage from "./component/errorPage/ErrorPage";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
         path: "/viewdetails/:detailsID",
         element: <Details></Details>,
         loader: ({ params }) => fetch("/featureData.json"),
+      },
+      {
+        path: "/*",
+        element: <ErrorPage></ErrorPage>,
       },
     ],
   },
