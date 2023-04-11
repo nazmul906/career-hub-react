@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "company_logo": "https://example.com/company1_logo.png",
+    "company_logo": "data:image/png;base64,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",
     "job_title": "Frontend Developer",
     "company_name": "ABC Corp",
     "remote_or_onsite": "Remote",
@@ -19,7 +19,7 @@
   },
   {
     "id": "2",
-    "company_logo": "https://example.com/company2_logo.png",
+    "company_logo": "data:image/png;base64,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",
     "job_title": "Data Scientist",
     "company_name": "XYZ Inc",
     "remote_or_onsite": "Onsite",
@@ -37,7 +37,7 @@
   },
   {
     "id": "3",
-    "company_logo": "https://example.com/company3_logo.png",
+    "company_logo": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/05/Screen-Shot-2022-05-23-at-12.45.30-PM-e1659040331310.png?auto=format&q=60&fit=max&w=930",
     "job_title": "UX Designer",
     "company_name": "123 Co",
     "remote_or_onsite": "Onsite",
@@ -55,7 +55,7 @@
   },
   {
     "id": "4",
-    "company_logo": "https://example.com/company4_logo.png",
+    "company_logo": "https://cdn.logojoy.com/wp-content/uploads/2018/05/01104846/1952-768x591.png",
     "job_title": "Sales Representative",
     "company_name": "DEF Inc",
     "remote_or_onsite": "Remote",
@@ -73,7 +73,7 @@
   },
   {
     "id": "5",
-    "company_logo": "https://example.com/logo3.png",
+    "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8B77hsNTfihE1p0OVSReSgFflxWSXkABNUA&usqp=CAU",
     "job_title": "Graphic Designer",
     "company_name": "123 Design Agency",
     "remote_or_onsite": "Remote",
@@ -91,7 +91,7 @@
   },
   {
     "id": "6",
-    "company_logo": "https://example.com/logo2.png",
+    "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAs-4OCh7qSe_gKUVxt3QFs9JS2h0VBs9qpg&usqp=CAU",
     "job_title": "Marketing Manager",
     "company_name": "XYZ Corporation",
     "remote_or_onsite": "Onsite",
@@ -109,7 +109,7 @@
   },
   {
     "id": "7",
-    "company_logo": "https://example.com/logo1.png",
+    "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLjZgd3VuZQu1Nji7M4OTABKcwaV53E_FL7Q&usqp=CAU",
     "job_title": "Software Engineer",
     "company_name": "ABC Company",
     "remote_or_onsite": "Remote",
@@ -127,7 +127,7 @@
   },
   {
     "id": "8",
-    "company_logo": "https://example.com/logo2.png",
+    "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9HqkeP_uGzabN_N05juJOy7L5WfiroE3Wpw&usqp=CAU",
     "job_title": "Data Analyst",
     "company_name": "Another Example Inc.",
     "remote_or_onsite": "Onsite",
@@ -145,7 +145,7 @@
   },
   {
     "id": "9",
-    "company_logo": "https://example.com/logo1.png",
+    "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeq9P0cmjew1aqJ1p4jRtgjgaANm7JQT3bHA&usqp=CAU",
     "job_title": "Backend developer",
     "company_name": "Example Inc.",
     "remote_or_onsite": "Remote",
