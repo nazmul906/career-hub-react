@@ -47,25 +47,25 @@ const Home = () => {
 
       <div className="featureSection">
         <h1>Featured Jobs</h1>
-        {/* {feature.slice(0, showall ? feature.length : 4).map((item) => (
+        {feature.slice(0, showall ? feature.length : 4).map((item) => (
           <Feature key={item.id} feature={item}></Feature>
-        ))} */}
+        ))}
         {/* {feature.slice(0, 4).map((item) => (
           <Feature key={item.id} feature={item}></Feature>
         ))} */}
 
-        {showall
+        {/* {showall
           ? feature.map((feature) => (
               <Feature key={feature.id} feature={feature} />
             ))
           : feature
               .slice(0, 4)
-              .map((feature) => <Feature key={feature.id} feature={feature} />)}
-        <button onClick={() => setShowall(!showall)}>
+              .map((feature) => <Feature key={feature.id} feature={feature} />)} */}
+        {/* <button onClick={() => setShowall(!showall)}>
           {showall ? "Show Less" : "See All Jobs"}
-        </button>
+        </button> */}
       </div>
-      {/* <button onClick={() => setShowall(true)}>Show all</button> */}
+      <button onClick={() => setShowall(true)}>Show all</button>
     </div>
   );
 };
