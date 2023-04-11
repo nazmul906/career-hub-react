@@ -47,7 +47,7 @@ const Home = () => {
 
       <div className="featureSection">
         <h1>Featured Jobs</h1>
-        {feature.slice(0, showall ? feature.length : 4).map((item) => (
+        {feature?.slice(0, showall ? feature.length : 4).map((item) => (
           <Feature key={item.id} feature={item}></Feature>
         ))}
         {/* {feature.slice(0, 4).map((item) => (
