@@ -1,0 +1,29 @@
+.leftPart {
+  padding: 24px;
+}
+.leftPart p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  /* Dark 03 */
+
+  color: #757575;
+}
+
+.rightPart {
+  width: 424px;
+  height: 300px;
+  left: 1196px;
+  top: 530px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+  border-radius: 8px;
+}

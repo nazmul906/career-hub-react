@@ -23,9 +23,6 @@ const Details = () => {
 
   return (
     <div className="details">
-      <h5>dynamic</h5>
-      {/* <h6>ID: {id}</h6> */}
-      {feature.length}
       {/* {feature.map((item) => (
         <JobDetails key={item.id} details={item}></JobDetails>
       ))}  */}

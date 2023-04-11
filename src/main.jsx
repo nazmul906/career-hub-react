@@ -9,7 +9,7 @@ import Statistics from "./component/Statistics/Statistics";
 import JobDetails from "./component/jobDetails/JobDetails";
 import Details from "./component/details/Details";
 import AppliedJobs from "./component/appliedJobs/AppliedJobs";
-import AppliedJobloader from "./component/loader/AppliedJobloader";
+
 import ErrorPage from "./component/errorPage/ErrorPage";
 const router = createBrowserRouter([
   {

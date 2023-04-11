@@ -139,7 +139,7 @@
     "educational_requirements": "Bachelor's degree in Statistics, Mathematics, or related field",
     "experiences": "2+ years of experience in data analysis",
     "contact_information": {
-      "phone": "+1 (555) 234-5678",
+      "phone": "234-5678",
       "email": "jobs@anotherexample.com"
     }
   },
@@ -157,7 +157,7 @@
     "educational_requirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "3+ years of experience in software development",
     "contact_information": {
-      "phone": "+1 (555) 123-4567",
+      "phone": "123-4567",
       "email": "jobs@example.com"
     }
   }
