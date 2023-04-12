@@ -19,7 +19,6 @@ const Feature = ({ feature }) => {
   } = feature;
   return (
     <div className="feature">
-      <h4>{company_name}</h4>
       <img style={{ width: "100px", height: "100px" }} src={company_logo}></img>
       <p>{job_title}</p>
       <p>{company_name}</p>

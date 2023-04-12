@@ -6,3 +6,21 @@
   margin: 10px;
   padding: 10px;
 }
+
+.applied {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+  margin-bottom: 100px;
+  text-align: center;
+
+  /* Dark 01 */
+
+  color: #1a1919;
+}
+.filterbtn {
+  margin-left: 840px;
+}

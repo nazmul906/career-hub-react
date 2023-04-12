@@ -76,7 +76,7 @@
     "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8B77hsNTfihE1p0OVSReSgFflxWSXkABNUA&usqp=CAU",
     "job_title": "Graphic Designer",
     "company_name": "123 Design Agency",
-    "remote_or_onsite": "Remote",
+    "remote_or_onsite": "Onsite",
     "location": "Anywhere",
     "fulltime_or_parttime": "Part-time",
     "salary": "$40 - $50 per hour",
@@ -159,6 +159,24 @@
     "contact_information": {
       "phone": "123-4567",
       "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": "8",
+    "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9HqkeP_uGzabN_N05juJOy7L5WfiroE3Wpw&usqp=CAU",
+    "job_title": "Data Analyst",
+    "company_name": "Another Example Inc.",
+    "remote_or_onsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a data analyst to join our team...",
+    "job_responsibility": "Collect and analyze data from various sources...",
+    "educational_requirements": "Bachelor's degree in Statistics, Mathematics, or related field",
+    "experiences": "2+ years of experience in data analysis",
+    "contact_information": {
+      "phone": "234-5678",
+      "email": "jobs@anotherexample.com"
     }
   }
 ]

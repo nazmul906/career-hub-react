@@ -7,14 +7,18 @@ import DisplayAppliedJob from "../display/displayAppliedJob.jsx";
 import "./appliedjob.css";
 const AppliedJobs = () => {
   const [appliedJob, setAppliedJob] = useState([]);
-  const [remoteJob, setRemoteJob] = useState([]);
+  // const [remoteJob, setRemoteJob] = useState([]);
+  // const [onSiteJob, setOnSiteJOb] = useState([]);
+  const [job, setJOb] = useState([]);
+
+  const [rmfilter, setRmfilter] = useState(false);
+  const [onfilter, setOnfilter] = useState(false);
   const featuredata = useLoaderData();
   // useEffect(() => {
   //   fetch("featureData.json")
   //     .then((res) => res.json())
   //     .then((data) => console.log(data));
   // }, []);
-  // Problem hocche..show button er por baki gla ar local theke apppliedjob  load hocche na ..jdio save hocce
 
   // to know the applied job we just need to know their id which stored in localstorage
   //once we found there id we need to macth them with json and render those add
@@ -42,49 +46,52 @@ const AppliedJobs = () => {
     const remoteJobs = appliedJob.filter(
       (job) => job.remote_or_onsite === "Remote"
     );
-    setRemoteJob(remoteJobs);
+    setJOb(remoteJobs);
+    setRmfilter(true);
   };
 
   const handleOnsite = () => {
     const onsiteJobs = appliedJob.filter(
       (job) => job.remote_or_onsite === "Onsite"
     );
-    setRemoteJob(onsiteJobs);
+    // setOnSiteJOb(onsiteJobs);
+    setJOb(onsiteJobs);
+    setOnfilter(true);
   };
   // console.log("data", featuredata);
   return (
     <div className="appliedJob">
-      <h6>Applied JOb</h6>
-      {/* <div>
-        <button onClick={() => handleRemote()}>Remote</button>
-        <button onClick={() => handleOnsite()}>Onsite</button>
-      </div> */}
+      <h6 className="applied">Applied JOb</h6>
 
-      {/* {appliedJob.length}
-      {appliedJob.map((item) => (
-        <div key={item.id} className="Eachjob">
-          <p>{item.job_title}</p>
-          <p>{item.company_name}</p>
-          <p>{item.location}</p>
-        </div>
-      ))} */}
-
-      <div>
+      <div className="filterbtn">
         <button onClick={() => handleRemote()}>Remote</button>
         <button onClick={() => handleOnsite()}>Onsite</button>
       </div>
       <div>
-        {remoteJob.length > 0 && (
+        {job.length > 0 && (
           <div>
             {/* <h6>Remote Jobs</h6> */}
-            {remoteJob.map((item) => (
+            {job.map((item) => (
               <DisplayAppliedJob key={item.id} appliedjob={item} />
             ))}
           </div>
         )}
-        {remoteJob.length === 0 && appliedJob.length > 0 && (
+        {/* {onSiteJob.length > 0 && onfilter ? (
           <div>
-            <h6>All Jobs</h6>
+            {onSiteJob.map((item) => (
+              <DisplayAppliedJob
+                key={item.id}
+                appliedjob={item}
+              ></DisplayAppliedJob>
+            ))}
+          </div>
+        ) : (
+          ""
+        )} */}
+
+        {job.length === 0 && appliedJob.length > 0 && (
+          <div>
+            <h6 style={{ marginBottom: "20px" }}>All Jobs</h6>
             {appliedJob.map((item) => (
               <DisplayAppliedJob key={item.id} appliedjob={item} />
             ))}

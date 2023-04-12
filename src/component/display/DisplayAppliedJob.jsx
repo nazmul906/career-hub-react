@@ -2,15 +2,32 @@ import React from "react";
 import "./displayAppliedJOb.css";
 const DisplayAppliedJob = ({ appliedjob }) => {
   console.log("appliedjob", appliedjob);
-  const { id, job_title, company_name, location, remote_or_onsite } =
-    appliedjob;
+  const {
+    id,
+    job_title,
+    company_name,
+    location,
+    remote_or_onsite,
+
+    company_logo,
+
+    name,
+
+    salary,
+  } = appliedjob;
   return (
-    <div className="job">
+    <div className="job flex flex-row  justify-center items-center">
       {/* <div key={item.id} className="Eachjob"> */}
-      <p>{job_title}</p>
-      <p>{company_name}</p>
-      <p>{location}</p>
-      <p>{remote_or_onsite}</p>
+
+      <img style={{ width: "100px", height: "100px" }} src={company_logo}></img>
+
+      <div className="middlePara">
+        <p>{job_title}</p>
+        <p>{company_name}</p>
+        <p>{location}</p>
+        <p>{remote_or_onsite}</p>
+      </div>
+      <button className="btn btn-primary ">View Details</button>
     </div>
     // </div>
   );
