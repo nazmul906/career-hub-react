@@ -1,32 +1,37 @@
 [
   {
     "id": 1,
-    "name": "Homework 1",
-    "number": 30
+    "name": "Assignment 1",
+    "number": 29
   },
   {
     "id": 2,
-    "name": "Quiz 1",
-    "number": 58
+    "name": "Assignment 2",
+    "number": 60
   },
   {
     "id": 3,
-    "name": "Project 1",
-    "number": 40
+    "name": "Assignment 3",
+    "number": 58
   },
   {
     "id": 4,
-    "name": "Project 34",
+    "name": "Assignment 1",
     "number": 78
   },
   {
     "id": 5,
-    "name": "Project 34",
-    "number": 78
+    "name": "Assignment 1",
+    "number": 50
   },
   {
     "id": 6,
-    "name": "Project 34",
-    "number": 78
+    "name": "Assignment 1",
+    "number": 60
+  },
+  {
+    "id": 7,
+    "name": "Assignment 1",
+    "number": 60
   }
 ]

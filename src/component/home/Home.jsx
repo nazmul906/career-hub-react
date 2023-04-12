@@ -89,7 +89,11 @@ const Home = () => {
           {showall ? "Show Less" : "See All Jobs"}
         </button> */}
       </div>
-      <button onClick={() => setShowall(true)}>Show all</button>
+      <div className="text-center mt-8">
+        <button onClick={() => setShowall(true)} className="btn btn-primary ">
+          Show all
+        </button>
+      </div>
     </div>
   );
 };
