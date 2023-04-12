@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <div className="header">
-      <div className="headerTitle">
+      <div className="headerTitle ">
         <h2 className="text-5xl font-bold">Job Wing</h2>
       </div>
       <nav className="link">

@@ -28,3 +28,15 @@
 .categorySection {
   margin-bottom: 130px;
 }
+
+@media only screen and (max-width: 600px) {
+  .BannnerSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .BannerLeft {
+    margin: 0;
+    /* padding: 20px; */
+    width: auto;
+  }
+}

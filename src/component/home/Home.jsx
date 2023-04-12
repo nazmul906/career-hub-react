@@ -28,7 +28,7 @@ const Home = () => {
       <div className="BannnerSection">
         <div className="BannerLeft">
           {" "}
-          <h1 className="font-bold">
+          <h1 className=" md:font-bold">
             <span>A STEP CLOSER TO YOUR </span> <br />
             <span>Dream JOb</span>
           </h1>
@@ -49,13 +49,13 @@ const Home = () => {
       </div>
 
       <div className="categorySection">
-        <div className="card-compact w-66 bg-base-100 shadow-xl">
+        <div className=" w-66 bg-base-100 shadow-xl">
           <h1 className="font-normal mb-4"> Job Category List</h1>
           <p>
             Explore thousands of job opportunities with all the information you
             need. Its your future
           </p>
-          <div className="md:grid grid-cols-4 gap-3">
+          <div className="card md:grid grid-cols-4 gap-3">
             {data.map((item) => (
               <DisplayCategory
                 key={item.name}
