@@ -42,7 +42,7 @@ const AppliedJobs = () => {
       (job) => job.remote_or_onsite === "Remote"
     );
     setJOb(remoteJobs);
-    setRmfilter(true);
+    // setRmfilter(true);
   };
 
   const handleOnsite = () => {
@@ -51,7 +51,7 @@ const AppliedJobs = () => {
     );
     // setOnSiteJOb(onsiteJobs);
     setJOb(onsiteJobs);
-    setOnfilter(true);
+    // setOnfilter(true);
   };
   // console.log("data", featuredata);
   return (
