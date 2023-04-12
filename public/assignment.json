@@ -2,31 +2,37 @@
   {
     "id": 1,
     "name": "Assignment 1",
-    "number": 29
+    "number": 29,
+    "Assignment_marks": 60
   },
   {
     "id": 2,
     "name": "Assignment 2",
-    "number": 60
+    "number": 60,
+    "Assignment_marks": 60
   },
   {
     "id": 3,
     "name": "Assignment 3",
-    "number": 58
+    "number": 58,
+    "Assignment_marks": 60
   },
   {
     "id": 4,
     "name": "Assignment 4",
-    "number": 58
+    "number": 58,
+    "Assignment_marks": 60
   },
   {
     "id": 5,
     "name": "Assignment 5",
-    "number": 50
+    "number": 50,
+    "Assignment_marks": 60
   },
   {
     "id": 6,
     "name": "Assignment 6",
-    "number": 60
+    "number": 60,
+    "Assignment_marks": 60
   }
 ]
