@@ -9,11 +9,8 @@ const DisplayAppliedJob = ({ appliedjob }) => {
     company_name,
     location,
     remote_or_onsite,
-
     company_logo,
-
     name,
-
     salary,
   } = appliedjob;
   return (
@@ -22,11 +19,13 @@ const DisplayAppliedJob = ({ appliedjob }) => {
 
       <img style={{ width: "100px", height: "100px" }} src={company_logo}></img>
 
-      <div className="middlePara">
+      <div className="middlePara flex flex-col  justify-center items-center">
         <p>{job_title}</p>
         <p>{company_name}</p>
         <p>{location}</p>
-        <p>{remote_or_onsite}</p>
+        <p>
+          <button>{remote_or_onsite}</button> <span>Full time</span>{" "}
+        </p>
       </div>
       <Link to={`/viewdetails/${id}`}>
         {" "}

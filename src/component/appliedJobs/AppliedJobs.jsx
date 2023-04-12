@@ -11,14 +11,9 @@ const AppliedJobs = () => {
   // const [onSiteJob, setOnSiteJOb] = useState([]);
   const [job, setJOb] = useState([]);
 
-  const [rmfilter, setRmfilter] = useState(false);
-  const [onfilter, setOnfilter] = useState(false);
+  // const [rmfilter, setRmfilter] = useState(false);
+  // const [onfilter, setOnfilter] = useState(false);
   const featuredata = useLoaderData();
-  // useEffect(() => {
-  //   fetch("featureData.json")
-  //     .then((res) => res.json())
-  //     .then((data) => console.log(data));
-  // }, []);
 
   // to know the applied job we just need to know their id which stored in localstorage
   //once we found there id we need to macth them with json and render those add
@@ -39,7 +34,7 @@ const AppliedJobs = () => {
         console.log("job is not found in featureData");
       }
     }
-    // console.log("clicked from useeffct");
+    // console.log("clicked from useffct");
   }, [featuredata]);
 
   const handleRemote = () => {
@@ -61,12 +56,31 @@ const AppliedJobs = () => {
   // console.log("data", featuredata);
   return (
     <div className="appliedJob">
-      <h6 className="applied">Applied JOb</h6>
+      <div className="banner">
+        <h6>Applied Job</h6>
+      </div>
 
-      <div className="filterbtn">
+      {/*  */}
+      <div className="dropdown filterbtn me-24">
+        <label tabIndex={0} className="btn m-1">
+          Filter By
+        </label>
+        <ul
+          tabIndex={0}
+          className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+        >
+          <li>
+            <button onClick={() => handleRemote()}>Remote</button>
+          </li>
+          <li>
+            <button onClick={() => handleOnsite()}>Onsite</button>
+          </li>
+        </ul>
+      </div>
+      {/* <div className="filterbtn">
         <button onClick={() => handleRemote()}>Remote</button>
         <button onClick={() => handleOnsite()}>Onsite</button>
-      </div>
+      </div> */}
       <div>
         {job.length > 0 && (
           <div>
@@ -91,7 +105,12 @@ const AppliedJobs = () => {
 
         {job.length === 0 && appliedJob.length > 0 && (
           <div>
-            <h6 style={{ marginBottom: "20px" }}>All Jobs</h6>
+            <h6
+              className="text-xl font-medium"
+              style={{ marginBottom: "20px", marginLeft: "60px" }}
+            >
+              All Jobs
+            </h6>
             {appliedJob.map((item) => (
               <DisplayAppliedJob key={item.id} appliedjob={item} />
             ))}

@@ -1,13 +1,25 @@
 /* .appliedJob {
   border: 2px solid blueviolet;
 } */
-.Eachjob {
-  border: 2px solid palevioletred;
+/* .Eachjob {
+   border: 2px solid palevioletred; 
   margin: 10px;
   padding: 10px;
+} */
+.banner {
+  background-color: rgb(174, 216, 202);
+  color: #fff;
+  font-size: 1.2em;
+  padding: 20px;
+  text-align: center;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  /* z-index: 9999; */
 }
 
-.applied {
+.banner h6 {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 800;
@@ -23,4 +35,5 @@
 }
 .filterbtn {
   margin-left: 840px;
+  margin-bottom: 80px;
 }
