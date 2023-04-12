@@ -44,7 +44,7 @@ const Statistics = () => {
           stroke="#8884d8"
         />
         <Bar dataKey="number" barSize={20} fill="#413ea0" />
-        <Line type="monotone" dataKey="number" stroke="#ff7300" />
+        <Line type="monotone" dataKey="name" stroke="#ff7300" />
       </ComposedChart>
     </div>
   );

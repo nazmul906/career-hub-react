@@ -16,22 +16,17 @@
   },
   {
     "id": 4,
-    "name": "Assignment 1",
-    "number": 78
+    "name": "Assignment 4",
+    "number": 58
   },
   {
     "id": 5,
-    "name": "Assignment 1",
+    "name": "Assignment 5",
     "number": 50
   },
   {
     "id": 6,
-    "name": "Assignment 1",
-    "number": 60
-  },
-  {
-    "id": 7,
-    "name": "Assignment 1",
+    "name": "Assignment 6",
     "number": 60
   }
 ]
