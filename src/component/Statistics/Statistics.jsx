@@ -30,8 +30,8 @@ const Statistics = () => {
     setMark(stat);
   }, []);
   return (
-    <div>
-      <ComposedChart width={730} height={250} data={marks}>
+    <div className="flex justify-center items-center mt-24">
+      <ComposedChart width={730} height={350} data={marks}>
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
@@ -43,8 +43,8 @@ const Statistics = () => {
           fill="#8884d8"
           stroke="#8884d8"
         />
-        <Bar dataKey="pv" barSize={20} fill="#413ea0" />
-        <Line type="monotone" dataKey="uv" stroke="#ff7300" />
+        <Bar dataKey="number" barSize={20} fill="#413ea0" />
+        <Line type="monotone" dataKey="number" stroke="#ff7300" />
       </ComposedChart>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import "./displayAppliedJOb.css";
+import { Link } from "react-router-dom";
 const DisplayAppliedJob = ({ appliedjob }) => {
   console.log("appliedjob", appliedjob);
   const {
@@ -27,7 +28,10 @@ const DisplayAppliedJob = ({ appliedjob }) => {
         <p>{location}</p>
         <p>{remote_or_onsite}</p>
       </div>
-      <button className="btn btn-primary ">View Details</button>
+      <Link to={`/viewdetails/${id}`}>
+        {" "}
+        <button className="btn btn-primary ">View Details</button>
+      </Link>
     </div>
     // </div>
   );

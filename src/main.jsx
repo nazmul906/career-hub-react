@@ -9,7 +9,7 @@ import Statistics from "./component/Statistics/Statistics";
 import JobDetails from "./component/jobDetails/JobDetails";
 import Details from "./component/details/Details";
 import AppliedJobs from "./component/appliedJobs/AppliedJobs";
-
+import Blog from "./component/blog/Blog";
 import ErrorPage from "./component/errorPage/ErrorPage";
 const router = createBrowserRouter([
   {
@@ -38,17 +38,22 @@ const router = createBrowserRouter([
       },
       {
         path: "/blog",
-        element: <div></div>,
+        element: <Blog></Blog>,
       },
       // {
       //   path: "/viewdetails",
       //   element: <JobDetails></JobDetails>,
       // },
       //      loader: ({ params }) => console.log(params.details)
+
       {
         path: "/viewdetails/:detailsID",
         element: <Details></Details>,
         loader: ({ params }) => fetch("/featureData.json"),
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
       },
       {
         path: "/*",

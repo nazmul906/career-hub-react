@@ -64,21 +64,21 @@ const JobDetails = ({ details }) => {
       <div className="flex flex-row mt-8 details">
         <div className="leftPart">
           <p className="descrptn">
-            <span className="text-xl">Job Description:</span>
+            <span className="title">Job Description:</span>
             {job_description}
           </p>
           <p className="respons">
-            <span className="text-xl bold">Job responsibilty:</span>
+            <span className="title">Job responsibilty:</span>
             {job_responsibility}
           </p>
           <p className="edrequirement">
-            <span className="text-xl">Educational Requirement:</span>
+            <span className="title">Educational Requirement:</span>
             {educational_requirements}
           </p>
-          <h6 className="experience">
-            <span className="text-xl">Experience:</span>
+          <p className="experience">
+            <span className="title">Experience:</span>
             {experiences}
-          </h6>
+          </p>
         </div>
         <div className="rightPart">
           <div>

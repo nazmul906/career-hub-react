@@ -13,7 +13,18 @@
 
   color: #757575;
 }
+.title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
 
+  /* Dark 01 */
+
+  color: #1a1919;
+}
 .rightPart {
   width: 424px;
   height: 300px;
